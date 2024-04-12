@@ -1,0 +1,60 @@
+.skills-circles {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.progress {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  color: #fff;
+  background: #928A9745 linear-gradient(to right, transparent 50%, var(--main-color) 0);
+}
+.progress h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: 600;
+  color: #928A97;
+  z-index: 1;
+}
+.progress h3 span { 
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+.progress h4 {
+  color: var(--main-color);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.progress::before {
+  content: '';
+  display: block;
+  height: 100%;
+  margin-left: 50%;
+  transform-origin: left;
+  border-radius: 0 100% 100% 0/50%;
+}
+.progress::after {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+.progress::before {
+  background: var(--main-color);
+  transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
+.progress.less::before {
+  background: #dfdce0;
+  transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+}

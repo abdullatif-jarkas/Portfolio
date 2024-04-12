@@ -1,0 +1,16 @@
+.section-img {
+  position: relative;
+  width: max-content;
+}
+.section-img .section-img-points {
+  position: absolute;
+  left: -50px;
+  top: -40px;
+  z-index: -1;
+}
+@media screen and (width < 1200px) {
+  .section-img {
+    width: max-content;
+    margin: 0 auto;
+  }
+}

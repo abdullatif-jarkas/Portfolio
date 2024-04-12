@@ -1,0 +1,9 @@
+.social-links {
+  display: flex;
+  gap: 18px;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+.social-links a {
+  color: var(--social-links-color);
+}

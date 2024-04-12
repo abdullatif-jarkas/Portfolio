@@ -1,0 +1,22 @@
+.main-bg-1, .nav-plot {
+  position: absolute;
+  z-index: -2;
+}
+.nav-plot {
+  left: 2.7rem;
+}
+.about-me-bg {
+  position: absolute;
+  top: 332px;
+  left: -0.28px;
+  z-index: -2;
+}
+
+@media screen and (width < 576px) {
+  .nav-plot {
+    left: 16px;
+    width: 6rem;
+    top: 20px;
+    transform: rotate(24deg);
+  }
+}

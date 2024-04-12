@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=League+Spartan:wght@100..900&family=Rock+Salt&family=Rubik+Doodle+Shadow&display=swap');
+
+:root {
+  --main-color: #000C24;
+  --body-bg: #FBFBFB;
+  --nav-link-color: #928A97;
+  --text-color-secondary: #F44336;
+  --social-links-color: #928A97;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "League Spartan", sans-serif;
+}
+body {
+  background-color: var(--body-bg);
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 6.5rem;
+}
+.row {
+  display: flex;
+  gap: 3.5rem;
+}
+.col {
+  width: 50%;
+}
+.col-4 {
+  width: 40%;
+}
+.col-6 {
+  width: 60%;
+}
+
+@media screen and (width > 1400px) {
+  :root {
+    font-size: 20px;
+  }
+  .container {
+    padding: 0 10rem;
+  }
+}
+@media screen and (width < 1200px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
+}
+@media screen and (width < 576px) {
+  :root {
+    font-size: 14px;
+  }
+  .container {
+    padding: 2.5rem;
+  }
+}

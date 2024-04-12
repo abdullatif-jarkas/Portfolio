@@ -1,0 +1,32 @@
+.works .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.swiper-scrollbar-drag {
+  background-color: var(--main-color);
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+
+.slider-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color-secondary);
+}
+.slider-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+  line-height: 2.55rem;
+  text-wrap: balance;
+}
+.slider-link {
+  color: var(--nav-link-color);
+  font-size: 2rem;
+}

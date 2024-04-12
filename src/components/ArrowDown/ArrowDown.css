@@ -1,0 +1,8 @@
+.arrow-down {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--social-links-color);
+  position: absolute;
+  bottom: 50px;
+}

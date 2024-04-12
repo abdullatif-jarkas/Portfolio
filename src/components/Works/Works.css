@@ -1,0 +1,38 @@
+.works {
+  margin-top: 150px;
+  position: relative;
+}
+
+.works-plot {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.works h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-color-secondary);
+  margin-bottom: 20px;
+}
+.works .section-img {
+  width: 100%;
+}
+.works .section-img img:nth-child(2) {
+  width: 100%;
+}
+
+.works .arrow-down {
+  bottom: -30px;
+  color: var(--main-color);
+}
+
+@media screen and (width < 1200px) {
+  .works .col-4 {
+    width: max-content;
+    margin: 0 auto;
+  }
+  .works .col-6 {
+    width: 100%;
+  }
+}

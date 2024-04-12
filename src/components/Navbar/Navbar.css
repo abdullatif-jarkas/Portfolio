@@ -1,0 +1,28 @@
+nav {
+  padding: 2.84375rem 5.75rem;
+}
+nav ul {
+  display: flex;
+  gap: 4.0625rem;
+  list-style: none;
+}
+nav ul li a {
+  color: var(--nav-link-color);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 20.16px;
+  transition: .3s;
+}
+nav ul li a.active, nav ul li a:hover {
+  color: var(--text-color-secondary);
+  font-weight: 700;
+}
+
+@media screen and (width < 576px) {
+  nav {
+    padding: 2.5rem;
+  }
+  nav ul {
+    gap: 1.5rem;
+  }
+}

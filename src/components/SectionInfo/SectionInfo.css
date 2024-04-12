@@ -1,0 +1,28 @@
+.section-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.section-info h2 {
+  color: var(--text-color-secondary);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.section-info p {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 1.5rem;
+  max-width: 500px;
+  line-height: 2.55rem;
+  text-wrap: balance;
+}
+.section-info button {
+  padding: 1rem 1.5rem;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
