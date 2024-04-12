@@ -7,12 +7,31 @@
   margin-top: 40px;
 }
 .progress {
+  --i: 0;
   width: 100px;
   height: 100px;
   position: relative;
   border-radius: 50%;
   color: #fff;
   background: #928A9745 linear-gradient(to right, transparent 50%, var(--main-color) 0);
+}
+.progress:first-child {
+  --i: 90;
+}
+.progress:nth-child(2) {
+  --i: 85;
+}
+.progress:nth-child(3) {
+  --i: 80;
+}
+.progress:nth-child(4) {
+  --i: 90;
+}
+.progress:nth-child(5) {
+  --i: 70;
+}
+.progress:nth-child(6) {
+  --i: 30;
 }
 .progress h3 {
   position: absolute;
