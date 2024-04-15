@@ -1,6 +1,6 @@
 .nav-plot {
   position: absolute;
-  z-index: -2;
+  z-index: -1;
 }
 .nav-plot {
   left: 2.7rem;
