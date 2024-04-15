@@ -26,14 +26,14 @@
 }
 
 .skills .arrow-down {
-  bottom: 0;
+  bottom: -70px;
   color: var(--main-color);
 }
 
 @media screen and (width < 1200px) {
   .skills {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   .skills .col:first-child {
     order: 1;

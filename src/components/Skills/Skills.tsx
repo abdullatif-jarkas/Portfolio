@@ -27,11 +27,11 @@ const Skills = () => {
           btnText=''
         />
         <SkillCircle />
+        <ArrowDown />
       </div>
       <div className="col-4">
         <SectionImg mainImg={LaptopImg} />
       </div>
-      <ArrowDown />
     </section>
   )
 }

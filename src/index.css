@@ -23,6 +23,10 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   padding: 0 6.5rem;
 }
