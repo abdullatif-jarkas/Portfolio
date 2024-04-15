@@ -66,6 +66,11 @@
     width: 100%;
   }
 }
+@media screen and (width < 768px) {
+  .touch-container .col-4 {
+    width: 100%;
+  }
+}
 @media screen and (width < 576px) {
   .get-in-touch {
     padding: 1.84375rem;

@@ -28,11 +28,17 @@
 }
 
 @media screen and (width < 1200px) {
+  .works {
+    margin-top: 5rem;
+  }
   .works .col-4 {
-    width: max-content;
+    width: 100%;
     margin: 0 auto;
   }
   .works .col-6 {
     width: 100%;
+  }
+  .works-plot {
+    opacity: 0.1;
   }
 }

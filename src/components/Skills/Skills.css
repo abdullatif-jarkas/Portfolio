@@ -21,6 +21,10 @@
   z-index: -2;
 }
 
+.skills .section-img img:last-child{
+  width: 100%;
+}
+
 .skills .arrow-down {
   bottom: 0;
   color: var(--main-color);
@@ -31,6 +35,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .skills .col:first-child {
+    order: 1;
+  }
   .skills-img {
     width: max-content;
     margin: 0 auto; 
@@ -40,5 +47,19 @@
   }
   .skills .arrow-down {
     align-self: flex-start;
+  }
+  .skills .col-4 {
+    width: 100%;
+    order: -1;
+  }
+  .skills .section-img .section-img-points {
+    right: -20px;
+    top: -30px;
+  }
+}
+@media screen and (width < 992px) {
+  .skills .col-6 {
+    width: max-content;
+    max-width: 100%;
   }
 }

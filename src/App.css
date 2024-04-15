@@ -1,17 +1,17 @@
-.main-bg-1, .nav-plot {
+.nav-plot {
   position: absolute;
   z-index: -2;
 }
 .nav-plot {
   left: 2.7rem;
 }
-.about-me-bg {
-  position: absolute;
-  top: 332px;
-  left: -0.28px;
-  z-index: -2;
-}
 
+
+@media screen and (width < 1200px) {
+  .skills-bg-img {
+    opacity: 0.1;
+  }
+}
 @media screen and (width < 576px) {
   .nav-plot {
     left: 16px;

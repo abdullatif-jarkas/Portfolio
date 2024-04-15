@@ -6,6 +6,15 @@
   flex-direction: column;
   gap: 1rem;
 }
+.hero .main-bg-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  object-fit: cover;
+}
 .hero h1 {
   font-family: "Rubik Doodle Shadow";
   letter-spacing: 2px;
