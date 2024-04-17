@@ -9,7 +9,6 @@ type TDataItem = {
 }
 type TData = Array<TDataItem>
 
-
 const Navbar = ({ links }: { links: TData }) => {
 
   const [navbarColor, setNavbarColor] = useState<object>({});
@@ -24,31 +23,31 @@ const Navbar = ({ links }: { links: TData }) => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
-      if(scrollPosition < about?.offsetTop) {
+      if(about && scrollPosition < about?.offsetTop) {
         links.forEach(link => {
           link.active = false;
         })
         links[0].active = true;
       }
-      if(scrollPosition >= about?.offsetTop - 200) {
+      if(about && scrollPosition >= about?.offsetTop - 200) {
         links.forEach(link => {
           link.active = false;
         })
         links[1].active = true;
       }
-      if(scrollPosition >= skills?.offsetTop - 200) {
+      if(skills && scrollPosition >= skills?.offsetTop - 200) {
         links.forEach(link => {
           link.active = false;
         })
         links[2].active = true;
       }
-      if(scrollPosition >= works?.offsetTop - 200) {
+      if(works && scrollPosition >= works?.offsetTop - 200) {
         links.forEach(link => {
           link.active = false;
         })
         links[3].active = true;
       }
-      if(scrollPosition >= contact?.offsetTop - 200) {
+      if(contact && scrollPosition >= contact?.offsetTop - 200) {
         links.forEach(link => {
           link.active = false;
         })
