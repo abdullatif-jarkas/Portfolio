@@ -76,13 +76,6 @@ const Navbar = ({ links }: { links: TData }) => {
     };
   }, []);
 
-  const handleClick = (index: number) => {
-    links.forEach(link => {
-      link.active = false;
-    })
-    links[index].active = true;
-  }
-
   return (
     <nav style={ navbarColor }>
       <ul>
