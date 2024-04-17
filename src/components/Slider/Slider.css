@@ -29,4 +29,10 @@
 .slider-link {
   color: var(--nav-link-color);
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.slider-link span {
+  align-self: flex-end;
 }
