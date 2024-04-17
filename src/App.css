@@ -3,20 +3,34 @@
   z-index: -1;
 }
 .nav-plot {
-  left: 2.7rem;
+  left: 3.7rem;
+  top: -6px;
 }
 
 
+@media screen and (width < 1400px) {
+  .nav-plot {
+    left: 2.7rem;
+  }
+}
 @media screen and (width < 1200px) {
   .skills-bg-img {
     opacity: 0.1;
   }
 }
-@media screen and (width < 576px) {
+@media screen and (width < 992px) {
   .nav-plot {
-    left: 16px;
+    left: 2.7rem;
+    top: -5px;
+    width: 150px;
+    transform: rotate(23deg);
+  }
+}
+@media screen and (width < 576px) {
+  .nav-plot {    
+    left: -1px;
     width: 6rem;
-    top: 20px;
+    top: 5px;
     transform: rotate(24deg);
   }
 }

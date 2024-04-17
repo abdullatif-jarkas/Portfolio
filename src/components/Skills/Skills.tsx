@@ -3,7 +3,6 @@ import SkillCircle from '../SkillCircle/SkillCircle'
 import LaptopImg from './../../assets/imgs/laptop-bg.png'
 import './Skills.css'
 import SectionImg from '../SectionImg/SectionImg'
-import ArrowDown from '../ArrowDown/ArrowDown'
 import { useEffect } from 'react'
 import anime from 'animejs'
 
@@ -27,7 +26,6 @@ const Skills = () => {
           btnText=''
         />
         <SkillCircle />
-        <ArrowDown />
       </div>
       <div className="col-4">
         <SectionImg mainImg={LaptopImg} />

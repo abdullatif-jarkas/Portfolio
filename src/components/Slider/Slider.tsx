@@ -22,7 +22,6 @@ type TData = Array<TDataItem>;
 const Slider = ({ slides }: {slides: TData}) => {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={1}
@@ -35,7 +34,7 @@ const Slider = ({ slides }: {slides: TData}) => {
           <SwiperSlide>
             <h3 className='slider-title'>{slide.title}</h3>
             <p className='slider-text'>{slide.text}</p>
-            <a className='slider-link' href={slide.link}>{slide.icon}</a>
+            <a className='slider-link' href={slide.link}>{slide.icon} <span>Try it Now!</span></a>
           </SwiperSlide>
         ))
       }

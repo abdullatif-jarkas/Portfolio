@@ -4,7 +4,6 @@ import Slider from '../Slider/Slider'
 import CodeImg from './../../assets/imgs/code-bg.png'
 import WorksPlot from './../../assets/imgs/works-plot.svg'
 import './Works.css'
-import ArrowDown from '../ArrowDown/ArrowDown'
 
 const Works = () => { 
   const slidesArray = [
@@ -51,7 +50,6 @@ const Works = () => {
           <Slider slides={slidesArray} />
         </div>
       </div>
-      <ArrowDown />
     </section>
   )
 }

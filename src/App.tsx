@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <header>
+      <header id='home'>
         <img className='nav-plot' src={NavPlot} alt="nav-plot" />
         <Navbar links={links} />
         <Hero name="Abdullatif Jarkas" job="Engineer + Junior Front-end Developer" />

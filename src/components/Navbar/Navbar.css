@@ -1,5 +1,9 @@
 nav {
-  padding: 2.84375rem 5.75rem;
+  padding: 1.84375rem 5.75rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  transition: all .2s ease-in-out;
 }
 nav ul {
   display: flex;
@@ -18,9 +22,16 @@ nav ul li a.active, nav ul li a:hover {
   font-weight: 700;
 }
 
+
+@media screen and (width < 992px) {
+  nav ul {
+    gap: 3rem;
+  }
+}
+
 @media screen and (width < 576px) {
   nav {
-    padding: 2.5rem;
+    padding: 1.5rem;
   }
   nav ul {
     gap: 1.5rem;
