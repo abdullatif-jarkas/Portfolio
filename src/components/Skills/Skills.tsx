@@ -19,6 +19,7 @@ const Skills = () => {
       loop: true,
       duration: 1500,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
@@ -32,6 +33,7 @@ const Skills = () => {
       loop: true,
       duration: 1000,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
@@ -45,6 +47,7 @@ const Skills = () => {
       loop: true,
       duration: 1500,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
@@ -58,6 +61,7 @@ const Skills = () => {
       loop: true,
       duration: 1000,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
@@ -71,6 +75,7 @@ const Skills = () => {
       loop: true,
       duration: 1500,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
@@ -84,6 +89,7 @@ const Skills = () => {
       loop: true,
       duration: 1000,
       easing: function(el, i, total) {
+        console.log(el)
         return function(t) {
           return Math.pow(Math.sin(t * (i + 1)), total);
         }
