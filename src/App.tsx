@@ -44,7 +44,7 @@ function App() {
       <header id='home'>
         <img className='nav-plot' src={NavPlot} alt="nav-plot" />
         <Navbar links={links} />
-        <Hero name="Abdullatif Jarkas" job="Engineer + Junior Front-end Developer" />
+        <Hero name="Abdullatif Jarkas" job="Junior Front-end Developer" />
       </header>
       <main>
         <AboutMe text='A highly motivated Informatics Engineering student at Tishreen University, specializing in front-end development. With a strong background in leading frontend teams and a passion for creating visually appealing and user-friendly interfaces' />

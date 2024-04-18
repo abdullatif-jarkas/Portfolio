@@ -3,6 +3,7 @@ import PersonImg from './../../assets/imgs/person-1.png'
 import SectionInfo from '../SectionInfo/SectionInfo'
 import SectionImg from '../SectionImg/SectionImg'
 import MainBg2 from './../../assets/imgs/bg-2.png'
+import PdfFile from './../../assets/My_CV.pdf'
 
 const AboutMe = ({ text }: { text: string }) => {
   return (
@@ -13,7 +14,7 @@ const AboutMe = ({ text }: { text: string }) => {
           <SectionImg mainImg={PersonImg}/>
         </div>
         <div className="col">
-          <SectionInfo title="About Me" text={text} btn={true} btnText='Download CV' img={PersonImg} />
+          <SectionInfo title="About Me" text={text} btn={true} btnText='Download CV' img={PersonImg} file={PdfFile} />
         </div>
       </div>
     </section>

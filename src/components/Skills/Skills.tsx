@@ -9,10 +9,85 @@ import anime from 'animejs'
 const Skills = () => {
   
   useEffect(() => {
+    const roundLogEl = document.querySelectorAll('.progress');
+
     anime({
-      targets: '.delay-demo .el',
-      translateX: 250,
-      delay: 1000
+      targets: roundLogEl[0],
+      translateX: 0,
+      translateY: -10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1500,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
+    });
+    anime({
+      targets: roundLogEl[1],
+      translateX: 0,
+      translateY: +10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1000,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
+    });
+    anime({
+      targets: roundLogEl[2],
+      translateX: 0,
+      translateY: -10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1500,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
+    });
+    anime({
+      targets: roundLogEl[3],
+      translateX: 0,
+      translateY: +10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1000,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
+    });
+    anime({
+      targets: roundLogEl[4],
+      translateX: 0,
+      translateY: -10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1500,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
+    });
+    anime({
+      targets: roundLogEl[5],
+      translateX: 0,
+      translateY: +10,
+      direction: 'alternate',
+      loop: true,
+      duration: 1000,
+      easing: function(el, i, total) {
+        return function(t) {
+          return Math.pow(Math.sin(t * (i + 1)), total);
+        }
+      }
     });
   },[])
 
@@ -25,6 +100,7 @@ const Skills = () => {
           btn={false}
           btnText=''
           img={LaptopImg}
+          file=''
         />
         <SkillCircle />
       </div>
