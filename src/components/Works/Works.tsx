@@ -46,6 +46,7 @@ const Works = () => {
       </div>
       <div className="col-6">
         <h2>Works</h2>
+        <SectionImg mainImg={CodeImg} />
         <div className="slider-section">
           <Slider slides={slidesArray} />
         </div>

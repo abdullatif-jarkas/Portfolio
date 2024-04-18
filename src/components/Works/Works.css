@@ -27,13 +27,24 @@
   color: var(--main-color);
 }
 
+@media screen and (width >= 1200px) {
+  .works .col-6 img {
+    display: none;
+  }
+}
 @media screen and (width < 1200px) {
   .works {
-    margin-top: 9rem;
+    margin-top: 2rem;
+  }
+  .works .section-img {
+    margin-bottom: 2rem;  
   }
   .works .col-4 {
     width: 100%;
     margin: 0 auto;
+  }
+  .works .col-4 img {
+    display: none;
   }
   .works .col-6 {
     width: 100%;

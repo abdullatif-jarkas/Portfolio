@@ -26,3 +26,9 @@
   color: white;
   cursor: pointer;
 }
+
+@media screen and (width >= 1200px) {
+  .section-info img {
+    display: none;
+  }
+}

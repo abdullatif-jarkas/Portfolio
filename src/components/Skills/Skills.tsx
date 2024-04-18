@@ -24,6 +24,7 @@ const Skills = () => {
           text='I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.'
           btn={false}
           btnText=''
+          img={LaptopImg}
         />
         <SkillCircle />
       </div>

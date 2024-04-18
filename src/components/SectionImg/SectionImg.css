@@ -13,6 +13,7 @@
     width: 100%;
     max-width: 350px;
     margin: 0 auto;
+    margin-top: 2rem;
   }
   .section-img img:last-child {
     width: 100%;

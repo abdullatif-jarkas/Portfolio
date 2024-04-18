@@ -11,7 +11,7 @@ const SocialLinks = ({ links }: {links: TData}) => {
     <div className="social-links">
         {
           links.map((link, index: number) => (
-            <a key={index} href={link.link}>{link.icon}</a>
+            <a key={index} href={link.link} target='_blank'>{link.icon}</a>
           ))
         }
     </div>

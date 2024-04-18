@@ -13,7 +13,7 @@ const AboutMe = ({ text }: { text: string }) => {
           <SectionImg mainImg={PersonImg}/>
         </div>
         <div className="col">
-          <SectionInfo title="About Me" text={text} btn={true} btnText='Download CV' />
+          <SectionInfo title="About Me" text={text} btn={true} btnText='Download CV' img={PersonImg} />
         </div>
       </div>
     </section>

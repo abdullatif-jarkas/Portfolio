@@ -13,15 +13,15 @@ const Footer = () => {
     },
     {
       icon: <FaGithub />,
-      link: "",
+      link: "https://github.com/abdullatif-jarkas",
     },
     {
       icon: <FaLinkedin />,
-      link: "",
+      link: "https://www.linkedin.com/in/abdullatif-jarkas/",
     },
     {
       icon: <TiSocialInstagramCircular />,
-      link: "",
+      link: "https://www.instagram.com/abdullatif.jarkas/",
     },
   ]
 

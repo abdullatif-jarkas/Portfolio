@@ -33,7 +33,10 @@
 @media screen and (width < 1200px) {
   .skills {
     flex-direction: column;
-    /* align-items: center; */
+    margin-top: 0;
+  }
+  .skills .col-4 img {
+    display: none;
   }
   .skills .col:first-child {
     order: 1;
