@@ -34,7 +34,7 @@ const Slider = ({ slides }: {slides: TData}) => {
           <SwiperSlide>
             <h3 className='slider-title'>{slide.title}</h3>
             <p className='slider-text'>{slide.text}</p>
-            <a className='slider-link' href={slide.link}>{slide.icon} <span>Try it Now!</span></a>
+            <a className='slider-link' href={slide.link} target='_blank'>{slide.icon} <span>Try it Now!</span></a>
           </SwiperSlide>
         ))
       }

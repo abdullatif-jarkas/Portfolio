@@ -10,7 +10,7 @@ const SectionInfo = ({ title, text, btn, btnText, img }: TData) => {
       <SectionImg mainImg={img}/>
       <p>{text}</p>
       {
-        btn && <button>{btnText}</button>
+        btn && <a href="#"><button>{btnText}</button></a>
       }
     </div>
   )

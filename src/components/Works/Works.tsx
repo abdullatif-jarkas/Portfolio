@@ -8,34 +8,22 @@ import './Works.css'
 const Works = () => { 
   const slidesArray = [
     {
-      title: "Simon Game",
-      text: "An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ",
+      title: "VILLA",
+      text: "VILLA is a website where you can Schedule a visit to a wide collection of Luxury villas, penthounses, Modern Condos and Appartments, so you can choose your dream property",
       icon: <FaGithub />,
-      link: '',
+      link: 'https://abdullatif-jarkas.github.io/task1_front_fullstack/',
     },
     {
-      title: "Simon Game",
-      text: "An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ",
+      title: "Learner",
+      text: "Learner is a website where you can explore courses and become an instructor.",
       icon: <FaGithub />,
-      link: '',
+      link: 'https://abdullatif-jarkas.github.io/Task4_2/',
     },
     {
-      title: "Simon Game",
-      text: "An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ",
+      title: "PHONO",
+      text: "Phono is a website where you can explore the world of tech, see the latest mobile phones and the latest news in the field of technology",
       icon: <FaGithub />,
-      link: '',
-    },
-    {
-      title: "Simon Game",
-      text: "An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ",
-      icon: <FaGithub />,
-      link: '',
-    },
-    {
-      title: "Simon Game",
-      text: "An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ",
-      icon: <FaGithub />,
-      link: '',
+      link: 'https://abdullatif-jarkas.github.io/Task5_2/',
     },
   ]
   return (

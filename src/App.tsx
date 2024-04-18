@@ -47,7 +47,7 @@ function App() {
         <Hero name="Abdullatif Jarkas" job="Engineer + Junior Front-end Developer" />
       </header>
       <main>
-        <AboutMe text='An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion.' />
+        <AboutMe text='A highly motivated Informatics Engineering student at Tishreen University, specializing in front-end development. With a strong background in leading frontend teams and a passion for creating visually appealing and user-friendly interfaces' />
         <img className='skills-bg-img' src={MainBg3} alt="main-bg-3" />
         <Skills />
         <Works />
